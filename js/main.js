@@ -653,7 +653,3 @@ function getplate(){
 
 //幫物件裝上監聽器
 plate_item.addEventListener("click",getplate,false);
-
-
-
-

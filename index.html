@@ -21,193 +21,145 @@
 	<meta property="og:image:width" content="600"/>
 	<meta property="og:image:height" content="315"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
 	<link rel="icon" href="img/icon.png" type="image/x-icon">
-
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
 	<link href="css/main.css" rel="stylesheet">
-
   </head>
-  <body>
 
+  <body>
     <div class="container-fluid">
-	<div class="row">
-		<div class="col-md-12">
-			<div class="tabbable" id="tabs-646869">
-				<!--<ul class="nav nav-tabs">
-					<li class="active">
-						<a href="#panel-a1" data-toggle="tab">a1</a>
-					</li>
-					<li>
-						<a href="#panel-a1e" data-toggle="tab">a1e</a>
-					</li>
-					<li>
-						<a href="#panel-a2" data-toggle="tab">a2</a>
-					</li>
-					<li>
-						<a href="#panel-a2e" data-toggle="tab">a2e</a>
-					</li>
-					<li>
-						<a href="#panel-a3" data-toggle="tab">a3</a>
-					</li>
-					<li>
-						<a href="#panel-a4" data-toggle="tab">a4</a>
-					</li>
-					<li>
-						<a href="#panel-a4e" data-toggle="tab">a4e</a>
-					</li>
-					<li>
-						<a href="#panel-a2b" data-toggle="tab">a2b</a>
-					</li>
-					<li>
-						<a href="#panel-a2br" data-toggle="tab">a2br</a>
-					</li>
-					<li>
-						<a href="#panel-a2bre" data-toggle="tab">a2bre</a>
-					</li>
-					<li>
-						<a href="#panel-a2bl" data-toggle="tab">a2bl</a>
-					</li>
-					<li>
-						<a href="#panel-a2ble" data-toggle="tab">a2ble</a>
-					</li>
-				</ul>-->
-				
-				<ul class="toolbox" id="srcarea"></ul>
-				
-				<div class="tab-content">
-					<div class="tab-pane active" id="panel-a1">
-						<div class="itembox" id="lightbox">
-							<div class="item" id="light" draggable="true"></div>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="tabbable" id="tabs-646869">
+					<ul class="toolbox" id="srcarea"></ul>
+					<div class="tab-content">
+						<div class="tab-pane active" id="panel-a1">
+							<div class="itembox" id="lightbox">
+								<div class="item" id="light" draggable="true"></div>
+							</div>
+							<a href="#panel-a1door" data-toggle="tab"><div class="btn_door"></div></a>
+							<a href="#panel-a1e" data-toggle="tab" id="ma_change"><div class="btn_pot"></div></a>
+							<a href="#panel-a2" data-toggle="tab"><div class="btn_left"></div></a>
+							<div class="scenes" id="a1"></div>
+							<a href="#panel-a4" data-toggle="tab"><div class="btn_right"></div></a>
 						</div>
-						<a href="#panel-a1door" data-toggle="tab"><div class="btn_door"></div></a>
-						<a href="#panel-a1e" data-toggle="tab" id="ma_change"><div class="btn_pot"></div></a>
-						<a href="#panel-a2" data-toggle="tab"><div class="btn_left"></div></a>
-						<div class="scenes" id="a1"></div>
-						<a href="#panel-a4" data-toggle="tab"><div class="btn_right"></div></a>
-					</div>
-					<div class="tab-pane" id="panel-a1door">
-						<div class="scenes" id="a1door"></div>
-						<div id="droparea-a1door" class="itemcontainer"></div>
-						<a href="#panel-a1" data-toggle="tab"><div id="btn_doorbottom" class="btn_bottom"></div></a>
-					</div>
-					<div class="tab-pane" id="panel-a1e">
-						<ul class="material">
-							<li><div class="ma" id="ma1"></div></li>
-							<li><div class="ma" id="ma2"></div></li>
-							<li><div class="ma" id="ma3"></div></li>
-							<li><div class="ma" id="ma4"></div></li>
-							<li><div class="ma" id="ma5"></div></li>
-						</ul>
-						<div class="scenes" id="a1e"></div>
-						<a href="#panel-a1e2" data-toggle="tab"><div id="btn_soup" class="btn_soup"></div></a>
-						<a href="javascript:determineMaPassword()"><div class="btn_submitma"></div></a>
-						<a href="#panel-a1" data-toggle="tab"><div class="btn_bottom"></div></a>
-					</div>
-					<div class="tab-pane" id="panel-a1e2">
-						<div id="droparea-a1e2" class="itemcontainer"></div>
-						<div class="scenes" id="a1e2"></div>
-						<a href="#panel-a1" data-toggle="tab"><div class="btn_bottom"></div></a>
-					</div>
-					<div class="tab-pane" id="panel-a2">
-						<a href="#panel-a2e" data-toggle="tab"><div class="btn_mouse"></div></a>
-						<a href="#panel-a2b" data-toggle="tab"><div id="btn_light" class="btn_top"></div></a>
-						<a href="#panel-a3" data-toggle="tab"><div class="btn_left"></div></a>
-						<div class="scenes" id="a2"></div>
-						<a href="#panel-a1" data-toggle="tab"><div class="btn_right"></div></a>
-					</div>
-					<div class="tab-pane" id="panel-a2e">
-						<div id="droparea-a2e" class="itemcontainer"></div>
-						<div class="scenes" id="a2e"></div>
-						<a href="#panel-a2" data-toggle="tab"><div class="btn_bottom"></div></a>
-					</div>
-					<div class="tab-pane" id="panel-a3">
-						<div class="itembox" id="platebox">
-							<div class="item" id="plate" draggable="true"></div>
+						<div class="tab-pane" id="panel-a1door">
+							<div class="scenes" id="a1door"></div>
+							<div id="droparea-a1door" class="itemcontainer"></div>
+							<a href="#panel-a1" data-toggle="tab"><div id="btn_doorbottom" class="btn_bottom"></div></a>
 						</div>
-						<a href="#panel-a3e" data-toggle="tab"><div class="btn_key"></div></a>
-						<a href="#panel-a4" data-toggle="tab"><div class="btn_left"></div></a>
-						<div class="scenes" id="a3"></div>
-						<a href="#panel-a2" data-toggle="tab"><div class="btn_right"></div></a>
-					</div>
-					<div class="tab-pane" id="panel-a3e">
-						<div id="droparea-a3" class="itemcontainer"></div>
-						<div class="scenes" id="a3e"></div>
-						<a href="#panel-a3" data-toggle="tab"><div class="btn_bottom"></div></a>
-					</div>
-					<div class="tab-pane" id="panel-a4">
-						<div class="itembox" id="towelbox">
-							<div class="item" id="towel" draggable="true"></div>
+						<div class="tab-pane" id="panel-a1e">
+							<ul class="material">
+								<li><div class="ma" id="ma1"></div></li>
+								<li><div class="ma" id="ma2"></div></li>
+								<li><div class="ma" id="ma3"></div></li>
+								<li><div class="ma" id="ma4"></div></li>
+								<li><div class="ma" id="ma5"></div></li>
+							</ul>
+							<div class="scenes" id="a1e"></div>
+							<a href="#panel-a1e2" data-toggle="tab"><div id="btn_soup" class="btn_soup"></div></a>
+							<a href="javascript:determineMaPassword()"><div class="btn_submitma"></div></a>
+							<a href="#panel-a1" data-toggle="tab"><div class="btn_bottom"></div></a>
 						</div>
-						<a href="#panel-a4e" data-toggle="tab"><div class="btn_mirror"></div></a>
-						<a href="#panel-a1" data-toggle="tab"><div class="btn_left"></div></a>
-						<div class="scenes" id="a4"></div>
-						<a href="#panel-a3" data-toggle="tab"><div class="btn_right"></div></a>
-					</div>
-					<div class="tab-pane" id="panel-a4e">
-						<div id="droparea-a4e" class="itemcontainer"></div>
-						<div class="scenes" id="a4e"></div>
-						<a href="#panel-a4" data-toggle="tab"><div class="btn_bottom"></div></a>
-					</div>
-					<div class="tab-pane" id="panel-a2b">
-						<a href="#panel-a2bl" data-toggle="tab"><div id="btn_a2bl" class="btn_left"></div></a>
-						<div class="scenes" id="a2b"></div>
-						<a href="#panel-a2br" data-toggle="tab"><div id="btn_a2br" class="btn_right"></div></a>
-						<a href="#panel-a2" data-toggle="tab"><div class="btn_bottom"></div></a>
-					</div>
-					<div class="tab-pane" id="panel-a2br">
-						<a href="#panel-a2bre" data-toggle="tab"><div class="btn_book"></div></a>
-						<a href="#panel-a2b" data-toggle="tab"><div class="btn_bottom"></div></a>
-						<div class="scenes" id="a2br"></div>
-					</div>
-					<div class="tab-pane" id="panel-a2bre">
-						<div id="droparea-a2bre" class="itemcontainer"></div>
-						<div class="scenes" id="a2bre"></div>
-						<a href="#panel-a2br" data-toggle="tab"><div class="btn_bottom"></div></a>
-					</div>
-					<div class="tab-pane" id="panel-a2bl">
-						<a href="#panel-a2ble" data-toggle="tab" id="ad_change"><div class="btn_box"></div></a>
-						<div class="scenes" id="a2bl"></div>
-						<a href="#panel-a2b" data-toggle="tab"><div class="btn_bottom"></div></a>
-					</div>
-					<div class="tab-pane" id="panel-a2ble">
-						<ul class="adbox">
-							<li><div class="ad" id="ad1"></div></li>
-							<li><div class="ad" id="ad2"></div></li>
-							<li><div class="ad" id="ad3"></div></li>
-							<li><div class="ad" id="ad4"></div></li>
-							<li><div class="ad" id="ad5"></div></li>
-						</ul>
-						<div class="scenes" id="a2ble"></div>
-						<a href="#panel-a2ble2" data-toggle="tab"><div id="btn_machinerat" class="btn_machinerat"></div></a>
-						<a href="javascript:determineAdPassword()"><div class="btn_submitad"></div></a>
-						<a href="#panel-a2bl" data-toggle="tab"><div class="btn_bottom"></div></a>
-					</div>
-					<div class="tab-pane" id="panel-a2ble2">
-						<div class="itembox" id="machineratbox">
-							<div class="item" id="machinerat" draggable="true"></div>
+						<div class="tab-pane" id="panel-a1e2">
+							<div id="droparea-a1e2" class="itemcontainer"></div>
+							<div class="scenes" id="a1e2"></div>
+							<a href="#panel-a1" data-toggle="tab"><div class="btn_bottom"></div></a>
 						</div>
-						<div class="scenes" id="a2ble2"></div>
-						<a href="#panel-a2bl" data-toggle="tab"><div class="btn_bottom"></div></a>
+						<div class="tab-pane" id="panel-a2">
+							<a href="#panel-a2e" data-toggle="tab"><div class="btn_mouse"></div></a>
+							<a href="#panel-a2b" data-toggle="tab"><div id="btn_light" class="btn_top"></div></a>
+							<a href="#panel-a3" data-toggle="tab"><div class="btn_left"></div></a>
+							<div class="scenes" id="a2"></div>
+							<a href="#panel-a1" data-toggle="tab"><div class="btn_right"></div></a>
+						</div>
+						<div class="tab-pane" id="panel-a2e">
+							<div id="droparea-a2e" class="itemcontainer"></div>
+							<div class="scenes" id="a2e"></div>
+							<a href="#panel-a2" data-toggle="tab"><div class="btn_bottom"></div></a>
+						</div>
+						<div class="tab-pane" id="panel-a3">
+							<div class="itembox" id="platebox">
+								<div class="item" id="plate" draggable="true"></div>
+							</div>
+							<a href="#panel-a3e" data-toggle="tab"><div class="btn_key"></div></a>
+							<a href="#panel-a4" data-toggle="tab"><div class="btn_left"></div></a>
+							<div class="scenes" id="a3"></div>
+							<a href="#panel-a2" data-toggle="tab"><div class="btn_right"></div></a>
+						</div>
+						<div class="tab-pane" id="panel-a3e">
+							<div id="droparea-a3" class="itemcontainer"></div>
+							<div class="scenes" id="a3e"></div>
+							<a href="#panel-a3" data-toggle="tab"><div class="btn_bottom"></div></a>
+						</div>
+						<div class="tab-pane" id="panel-a4">
+							<div class="itembox" id="towelbox">
+								<div class="item" id="towel" draggable="true"></div>
+							</div>
+							<a href="#panel-a4e" data-toggle="tab"><div class="btn_mirror"></div></a>
+							<a href="#panel-a1" data-toggle="tab"><div class="btn_left"></div></a>
+							<div class="scenes" id="a4"></div>
+							<a href="#panel-a3" data-toggle="tab"><div class="btn_right"></div></a>
+						</div>
+						<div class="tab-pane" id="panel-a4e">
+							<div id="droparea-a4e" class="itemcontainer"></div>
+							<div class="scenes" id="a4e"></div>
+							<a href="#panel-a4" data-toggle="tab"><div class="btn_bottom"></div></a>
+						</div>
+						<div class="tab-pane" id="panel-a2b">
+							<a href="#panel-a2bl" data-toggle="tab"><div id="btn_a2bl" class="btn_left"></div></a>
+							<div class="scenes" id="a2b"></div>
+							<a href="#panel-a2br" data-toggle="tab"><div id="btn_a2br" class="btn_right"></div></a>
+							<a href="#panel-a2" data-toggle="tab"><div class="btn_bottom"></div></a>
+						</div>
+						<div class="tab-pane" id="panel-a2br">
+							<a href="#panel-a2bre" data-toggle="tab"><div class="btn_book"></div></a>
+							<a href="#panel-a2b" data-toggle="tab"><div class="btn_bottom"></div></a>
+							<div class="scenes" id="a2br"></div>
+						</div>
+						<div class="tab-pane" id="panel-a2bre">
+							<div id="droparea-a2bre" class="itemcontainer"></div>
+							<div class="scenes" id="a2bre"></div>
+							<a href="#panel-a2br" data-toggle="tab"><div class="btn_bottom"></div></a>
+						</div>
+						<div class="tab-pane" id="panel-a2bl">
+							<a href="#panel-a2ble" data-toggle="tab" id="ad_change"><div class="btn_box"></div></a>
+							<div class="scenes" id="a2bl"></div>
+							<a href="#panel-a2b" data-toggle="tab"><div class="btn_bottom"></div></a>
+						</div>
+						<div class="tab-pane" id="panel-a2ble">
+							<ul class="adbox">
+								<li><div class="ad" id="ad1"></div></li>
+								<li><div class="ad" id="ad2"></div></li>
+								<li><div class="ad" id="ad3"></div></li>
+								<li><div class="ad" id="ad4"></div></li>
+								<li><div class="ad" id="ad5"></div></li>
+							</ul>
+							<div class="scenes" id="a2ble"></div>
+							<a href="#panel-a2ble2" data-toggle="tab"><div id="btn_machinerat" class="btn_machinerat"></div></a>
+							<a href="javascript:determineAdPassword()"><div class="btn_submitad"></div></a>
+							<a href="#panel-a2bl" data-toggle="tab"><div class="btn_bottom"></div></a>
+						</div>
+						<div class="tab-pane" id="panel-a2ble2">
+							<div class="itembox" id="machineratbox">
+								<div class="item" id="machinerat" draggable="true"></div>
+							</div>
+							<div class="scenes" id="a2ble2"></div>
+							<a href="#panel-a2bl" data-toggle="tab"><div class="btn_bottom"></div></a>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	
-</div>
 
-<div class="footer">
-	Copyright&copy;2017, JoyXie.
-</div>
-
-</div>
+	<div class="footer">
+		Copyright&copy;2017, JoyXie.
+	</div>
 
 
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
 	<script src="js/main.js"></script>
   </body>
 </html>
