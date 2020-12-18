@@ -1,17 +1,17 @@
-# �k���ж��C��
-�k���ж��C�����W�h�������u���ιD��A�]�k�k�X�W�ꪺ�Ŷ��C���������ʺ��u���ӳ���NO.6�v�����⪺�ж��A�Ҧ��Ϥ��ιC���ƥ�ҰѦҰʺ��]�w��ۦ�ø�s�Ч@�C
+# 逃離房間遊戲
+逃離房間遊戲的規則為收集線索及道具，設法逃出上鎖的空間。此場景為動漫「未來都市NO.6」中角色的房間，所有圖片及遊戲事件皆參考動漫設定後自行繪製創作。
 
-## �}�o�u��
+## 開發工具
 * HTML
 * CSS
-* Javascript
+* 原生 Javascript：暴力到無法維護...
 * Layoutit-Tab
 
-## �ϥηƹ��ާ@
-* �B�_���~�G�I���e�����i�B�_�����~�A�|��ܤU��u��C
-* ��m���~�G�q�u��C�즲���~��e����
+## 使用滑鼠操作
+* 拾起物品：點擊畫面中可拾起的物品，會放至下方工具列
+* 放置物品：從工具列拖曳物品到畫面中
 
-## �C���e�������I��
+## 遊戲畫面部分截圖
 <img src="https://i.imgur.com/ps3sYhR.png" width="250" style="margin:0 10px 10px 0">
 
 <img src="https://i.imgur.com/ywqkSFa.png" width="250" style="margin:0 10px 10px 0">
@@ -27,36 +27,36 @@
 ---
 
 :::danger
-�� �H�U�A�ιC���ڳz�A�������ݱN���h�k���ж��ֽ�A�Фp�ߪA�ΡC
+※ 以下涉及遊戲據透，未玩先看將失去逃離房間樂趣，請小心服用。
 :::
 
-## �ƥ�����
+## 事件類型
 
-### �������ƥ�
-�u��C���ݦ��S�w���~�A�~�i�}�����õe���C
+### 偵測型事件
+工具列中需有特定物品，才可開啟隱藏畫面。
 
-#### �� �S���D��u�O�v
+#### ▼ 沒有道具「燈」
 <img src="https://i.imgur.com/fr9g7IB.png" width="300">
 
-#### �� ���D��u�O�v�A�i�i�J���k�q�D
+#### ▼ 有道具「燈」，可進入左右通道
 <img src="https://i.imgur.com/2Q71XvQ.png" width="300">
 
 
-### �K�X���ƥ�
-�ݿ�J���T���Ʀr�A�~�i�}�����õe���C
+### 密碼型事件
+需輸入正確的數字，才可開啟隱藏畫面。
 
-#### �� ��J���T�u���q�v
+#### ▼ 輸入正確「份量」
 <img src="https://i.imgur.com/kqtjSeo.png" width="300">
 
-#### �� �i�J���õe��
+#### ▼ 進入隱藏畫面
 <img src="https://i.imgur.com/Xs5TzLF.png" width="300">
 
 
-### ��m���ƥ�
-���N���T�����~�즲�ܥ��T���e����m���A�~�iĲ�o�S�w�ƥ�C
+### 放置型事件
+須將正確的物品拖曳至正確的畫面位置中，才可觸發特定事件。
 
-#### �� ���p�ѹ��ܡu���v
+#### ▼ 給小老鼠喝「湯」
 <img src="https://i.imgur.com/scbg0an.png" width="300">
 
-#### �� ��o�u�p�ѹ��v�D��
+#### ▼ 獲得「小老鼠」道具
 <img src="https://i.imgur.com/hMUESyo.png" width="300">
