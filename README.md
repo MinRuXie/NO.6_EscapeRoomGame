@@ -12,17 +12,32 @@
 * 放置物品：從工具列拖曳物品到畫面中
 
 ## 遊戲畫面部分截圖
-<img src="https://i.imgur.com/ps3sYhR.png" width="350" style="margin:0 10px 10px 0">
-
-<img src="https://i.imgur.com/ywqkSFa.png" width="350" style="margin:0 10px 10px 0">
-
-<img src="https://i.imgur.com/IkJ62GL.png" width="350" style="margin:0 10px 10px 0">
-
-<img src="https://i.imgur.com/CZUH3io.png" width="350" style="margin:0 10px 10px 0">
-
-<img src="https://i.imgur.com/VpdVNO5.png" width="350" style="margin:0 10px 10px 0">
-
-<img src="https://i.imgur.com/275ZWAk.png" width="350" style="margin:0 10px 10px 0">
+<table>
+  <tr>
+    <td>
+      <img src="https://i.imgur.com/ps3sYhR.png" width="350" style="margin:0 10px 10px 0">
+    </td>
+    <td>
+      <img src="https://i.imgur.com/ywqkSFa.png" width="350" style="margin:0 10px 10px 0">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://i.imgur.com/IkJ62GL.png" width="350" style="margin:0 10px 10px 0">
+    </td>
+    <td>
+      <img src="https://i.imgur.com/CZUH3io.png" width="350" style="margin:0 10px 10px 0">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://i.imgur.com/VpdVNO5.png" width="350" style="margin:0 10px 10px 0">
+    </td>
+    <td>
+      <img src="https://i.imgur.com/275ZWAk.png" width="350" style="margin:0 10px 10px 0">
+    </td>
+  </tr>
+</table>
 
 ---
 
