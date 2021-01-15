@@ -12,23 +12,21 @@
 * 放置物品：從工具列拖曳物品到畫面中
 
 ## 遊戲畫面部分截圖
-<img src="https://i.imgur.com/ps3sYhR.png" width="250" style="margin:0 10px 10px 0">
+<img src="https://i.imgur.com/ps3sYhR.png" width="350" style="margin:0 10px 10px 0">
 
-<img src="https://i.imgur.com/ywqkSFa.png" width="250" style="margin:0 10px 10px 0">
+<img src="https://i.imgur.com/ywqkSFa.png" width="350" style="margin:0 10px 10px 0">
 
-<img src="https://i.imgur.com/IkJ62GL.png" width="250" style="margin:0 10px 10px 0">
+<img src="https://i.imgur.com/IkJ62GL.png" width="350" style="margin:0 10px 10px 0">
 
-<img src="https://i.imgur.com/CZUH3io.png" width="250" style="margin:0 10px 10px 0">
+<img src="https://i.imgur.com/CZUH3io.png" width="350" style="margin:0 10px 10px 0">
 
-<img src="https://i.imgur.com/VpdVNO5.png" width="250" style="margin:0 10px 10px 0">
+<img src="https://i.imgur.com/VpdVNO5.png" width="350" style="margin:0 10px 10px 0">
 
-<img src="https://i.imgur.com/275ZWAk.png" width="250" style="margin:0 10px 10px 0">
+<img src="https://i.imgur.com/275ZWAk.png" width="350" style="margin:0 10px 10px 0">
 
 ---
 
-:::danger
 ※ 以下涉及遊戲據透，未玩先看將失去逃離房間樂趣，請小心服用。
-:::
 
 ## 事件類型
 
@@ -36,27 +34,27 @@
 工具列中需有特定物品，才可開啟隱藏畫面。
 
 #### ▼ 沒有道具「燈」
-<img src="https://i.imgur.com/fr9g7IB.png" width="300">
+<img src="https://i.imgur.com/fr9g7IB.png" width="350">
 
 #### ▼ 有道具「燈」，可進入左右通道
-<img src="https://i.imgur.com/2Q71XvQ.png" width="300">
+<img src="https://i.imgur.com/2Q71XvQ.png" width="350">
 
 
 ### 密碼型事件
 需輸入正確的數字，才可開啟隱藏畫面。
 
 #### ▼ 輸入正確「份量」
-<img src="https://i.imgur.com/kqtjSeo.png" width="300">
+<img src="https://i.imgur.com/kqtjSeo.png" width="350">
 
 #### ▼ 進入隱藏畫面
-<img src="https://i.imgur.com/Xs5TzLF.png" width="300">
+<img src="https://i.imgur.com/Xs5TzLF.png" width="350">
 
 
 ### 放置型事件
 須將正確的物品拖曳至正確的畫面位置中，才可觸發特定事件。
 
 #### ▼ 給小老鼠喝「湯」
-<img src="https://i.imgur.com/scbg0an.png" width="300">
+<img src="https://i.imgur.com/scbg0an.png" width="350">
 
 #### ▼ 獲得「小老鼠」道具
-<img src="https://i.imgur.com/hMUESyo.png" width="300">
+<img src="https://i.imgur.com/hMUESyo.png" width="350">
