@@ -15,26 +15,26 @@
 <table>
   <tr>
     <td>
-      <img src="https://i.imgur.com/ps3sYhR.png" width="350" style="margin:0 10px 10px 0">
+      <img src="https://i.imgur.com/ps3sYhR.png" width="400" style="margin:0 10px 10px 0">
     </td>
     <td>
-      <img src="https://i.imgur.com/ywqkSFa.png" width="350" style="margin:0 10px 10px 0">
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="https://i.imgur.com/IkJ62GL.png" width="350" style="margin:0 10px 10px 0">
-    </td>
-    <td>
-      <img src="https://i.imgur.com/CZUH3io.png" width="350" style="margin:0 10px 10px 0">
+      <img src="https://i.imgur.com/ywqkSFa.png" width="400" style="margin:0 10px 10px 0">
     </td>
   </tr>
   <tr>
     <td>
-      <img src="https://i.imgur.com/VpdVNO5.png" width="350" style="margin:0 10px 10px 0">
+      <img src="https://i.imgur.com/IkJ62GL.png" width="400" style="margin:0 10px 10px 0">
     </td>
     <td>
-      <img src="https://i.imgur.com/275ZWAk.png" width="350" style="margin:0 10px 10px 0">
+      <img src="https://i.imgur.com/CZUH3io.png" width="400" style="margin:0 10px 10px 0">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://i.imgur.com/VpdVNO5.png" width="400" style="margin:0 10px 10px 0">
+    </td>
+    <td>
+      <img src="https://i.imgur.com/275ZWAk.png" width="400" style="margin:0 10px 10px 0">
     </td>
   </tr>
 </table>
@@ -48,11 +48,18 @@
 ### 偵測型事件
 工具列中需有特定物品，才可開啟隱藏畫面。
 
-#### ▼ 沒有道具「燈」
-<img src="https://i.imgur.com/fr9g7IB.png" width="350">
-
-#### ▼ 有道具「燈」，可進入左右通道
-<img src="https://i.imgur.com/2Q71XvQ.png" width="350">
+<table>
+  <tr>
+    <td>
+      #### ▼ 沒有道具「燈」
+      <img src="https://i.imgur.com/fr9g7IB.png" width="350">
+    </td>
+    <td>
+      #### ▼ 有道具「燈」，可進入左右通道
+      <img src="https://i.imgur.com/2Q71XvQ.png" width="350">
+    </td>
+  </tr>
+</table>
 
 
 ### 密碼型事件
