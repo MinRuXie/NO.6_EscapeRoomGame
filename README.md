@@ -68,7 +68,7 @@
 <table>
   <tr>
     <td>
-      ▼ ▼ 輸入正確「份量」
+      ▼ 輸入正確「份量」
       <img src="https://i.imgur.com/kqtjSeo.png" width="400">
     </td>
     <td>
