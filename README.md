@@ -50,12 +50,14 @@
 
 <table>
   <tr>
+    <td>▼ 沒有道具「燈」</td>
+    <td>▼ 有道具「燈」，可進入左右通道</td>
+  </tr>
+  <tr>
     <td>
-      ▼ 沒有道具「燈」
       <img src="https://i.imgur.com/fr9g7IB.png" width="400">
     </td>
     <td>
-      ▼ 有道具「燈」，可進入左右通道
       <img src="https://i.imgur.com/2Q71XvQ.png" width="400">
     </td>
   </tr>
@@ -67,12 +69,14 @@
 
 <table>
   <tr>
+    <td>▼ 輸入正確「份量」</td>
+    <td>▼ 進入隱藏畫面</td>
+  </tr>
+  <tr>
     <td>
-      ▼ 輸入正確「份量」
       <img src="https://i.imgur.com/kqtjSeo.png" width="400">
     </td>
     <td>
-      ▼ 進入隱藏畫面
       <img src="https://i.imgur.com/Xs5TzLF.png" width="400">
     </td>
   </tr>
@@ -83,12 +87,14 @@
 
 <table>
   <tr>
+    <td>▼ 給小老鼠喝「湯」</td>
+    <td>▼ 獲得「小老鼠」道具</td>
+  </tr>
+  <tr>
     <td>
-      ▼ 給小老鼠喝「湯」
       <img src="https://i.imgur.com/scbg0an.png" width="400">
     </td>
     <td>
-      ▼ 獲得「小老鼠」道具
       <img src="https://i.imgur.com/hMUESyo.png" width="400">
     </td>
   </tr>
