@@ -4,7 +4,7 @@
 ## 開發工具
 * HTML
 * CSS
-* 原生 Javascript：暴力到無法維護...
+* Vanilla Javascript
 * Layoutit-Tab
 
 ## 使用滑鼠操作
