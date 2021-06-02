@@ -144,4 +144,4 @@
 * Event 8 找鑰匙 (放置型) → 位於 a3
     * 拖曳道具 moonlight，獲得道具 doorkey 
 * Event 9 開門 (放置型) → 位於 a1door
-    * doorkey moonlight，破關
+    * 拖曳道具 doorkey，破關
